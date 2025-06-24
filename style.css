@@ -104,11 +104,7 @@ h2 {
 .hero-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(
-    to bottom,
-    rgba(255, 255, 255, 0.3),
-    rgba(0, 0, 0, 0.7)
-  );
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.7));
   display: flex;
   align-items: flex-end; /* 讓內容靠下 */
   justify-content: center;
@@ -1263,4 +1259,9 @@ section.services-alt {
   font-size: 0.9rem;
   color: #666;
   margin-top: 0.5rem;
+}
+.map {
+  width: 60vw;
+  height: 25vw;
+  border: 0;
 }
