@@ -781,17 +781,17 @@ section.services-alt {
   position: relative;
 }
 .bg-product {
-  background-image: url("./image/index_product.png");
+  background-image: url("./image/index_product.webp");
 }
 .bg-process {
-  background-image: url("./image/index_custom.png");
+  background-image: url("./image/index_custom.webp");
 }
 .bg-case {
-  background-image: url("./image/index_case.png");
+  background-image: url("./image/index_case.webp");
 }
 
 .bg-certificate {
-  background-image: url("./image/index_iso.png");
+  background-image: url("./image/index_iso.webp");
 }
 .service-overlay {
   background: rgba(0, 0, 0, 0.45);
