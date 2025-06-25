@@ -104,7 +104,11 @@ h2 {
 .hero-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.7));
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.3),
+    rgba(0, 0, 0, 0.7)
+  );
   display: flex;
   align-items: flex-end; /* 讓內容靠下 */
   justify-content: center;
@@ -331,7 +335,7 @@ section h2 {
 img {
   max-width: 100%;
   height: auto;
-  border-radius: 6px;
+  /*border-radius: 6px;*/
 
   -webkit-user-drag: none;
   -webkit-touch-callout: none;
@@ -498,8 +502,8 @@ img {
   }
 }
 .logo-img {
-  height: 40px;
-  max-width: 180px;
+  height: 60px;
+  /*max-width: 180px;*/
   object-fit: contain;
 }
 .about-columns {
@@ -799,7 +803,7 @@ section.services-alt {
 
 .service-text {
   color: #fff;
-  max-width: 600px;
+  /*max-width: 600px;*/
   padding: 2rem;
 }
 
