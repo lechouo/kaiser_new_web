@@ -205,7 +205,7 @@ h2 {
 .cta-button:hover {
   background-color: #004b9a; /* hover 藍色 */
   transform: translateY(-2px); /* 輕微浮起感 */
-  ccolor: #ffffff; /* 確保字仍是白的 */
+  color: #ffffff; /* 確保字仍是白的 */
 }
 
 /* Section 共用樣式 */
