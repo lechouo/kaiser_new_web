@@ -95,7 +95,7 @@ h2 {
   position: relative;
   width: 100%;
   height: 60vh;
-  background: url("image/index_hero.png") center center / cover no-repeat;
+  background: url("image/index_hero.webp") center center / cover no-repeat;
   overflow: hidden;
   animation: heroFadeZoom 1.2s ease-out forwards;
   transition: opacity 0.3s ease, transform 0.3s ease;
