@@ -87,8 +87,8 @@ h2 {
 }
 .navbar .nav-links li a.active {
   font-weight: bold !important;
-  color: #8ab928 !important;
-  border-bottom: 2px solid #8ab928;
+  color: #002f6c !important;
+  border-bottom: 2px solid #002f6c;
 }
 /* Hero 區塊 */
 .hero {
@@ -191,16 +191,20 @@ h2 {
 
 .cta-button {
   display: inline-block;
-  background-color: #222;
-  color: white;
+  background-color: #002f6c; /* 主藍色 */
+  color: #ffffff;
   padding: 0.8rem 1.5rem;
   border-radius: 4px;
   text-decoration: none;
   font-size: 1rem;
+  font-weight: 600;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  transition: background-color 0.3s ease, transform 0.2s ease;
 }
+
 .cta-button:hover {
-  background-color: #444;
+  background-color: #004b9a; /* hover 藍色 */
+  transform: translateY(-2px); /* 輕微浮起感 */
 }
 
 /* Section 共用樣式 */
@@ -247,7 +251,7 @@ section h2 {
 
 .advantages ul li::before {
   content: "✔";
-  color: #8ab928;
+  color: #002f6c;
   position: absolute;
   left: 0;
 }
@@ -376,7 +380,7 @@ img {
   position: relative;
   margin: 2rem auto;
   padding: 2rem 0;
-  border-left: 4px solid #8ab928;
+  border-left: 4px solid #002f6c;
   max-width: 960px;
 }
 .timeline-item {
@@ -417,7 +421,7 @@ img {
   left: -12px;
   width: 16px;
   height: 16px;
-  background: #8ab928;
+  background: #002f6c;
   border-radius: 50%;
   border: 2px solid white;
 }
@@ -533,7 +537,7 @@ img {
   color: #888;
 }
 .about-col strong {
-  color: #8ab928;
+  color: #002f6c;
   font-weight: 400;
 }
 /* ✅ 響應式調整：平板以下變兩欄 */
@@ -611,7 +615,7 @@ quick-nav {
   color: #444;
 }
 .about-commitment strong {
-  color: #8ab928;
+  color: #002f6c;
   font-weight: 500;
 }
 .highlight-cases h2 {
@@ -832,7 +836,7 @@ section.services-alt {
 }
 
 .service-btn {
-  background: #8ab928;
+  background: #002f6c;
   color: white;
   padding: 10px 20px;
   border-radius: 4px;
@@ -842,7 +846,7 @@ section.services-alt {
 }
 
 .service-btn:hover {
-  background: #6f921e;
+  background: #004b9a;
 }
 
 @media screen and (max-width: 768px) {
@@ -1209,7 +1213,7 @@ section.services-alt {
   bottom: 40px;
   right: 40px;
   display: none;
-  background-color: #8ab928;
+  background-color: #002f6c;
   color: white;
   border: none;
   width: 50px;
@@ -1221,7 +1225,7 @@ section.services-alt {
 }
 
 #backToTop:hover {
-  background-color: #6f921e;
+  background-color: #004b9a;
 }
 .factory-history {
   padding: 3rem 1rem;
@@ -1232,7 +1236,7 @@ section.services-alt {
 .factory-history h2 {
   font-size: 1.75rem;
   color: #383b3a;
-  border-left: 5px solid #8ab928;
+  border-left: 5px solid #002f6c;
   padding-left: 0.5rem;
   margin-bottom: 1rem;
 }
@@ -1268,4 +1272,14 @@ section.services-alt {
   width: 60vw;
   height: 25vw;
   border: 0;
+}
+a {
+  color: #002f6c; /* Kaiser 主藍色 */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #004b9a; /* Hover 提亮藍 */
+  text-decoration: underline;
 }
